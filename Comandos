@@ -1,0 +1,130 @@
+//CREACION DE NUEVOS DIRECTORIOS
+
+Last login: Tue Aug 20 18:07:29 on ttys001
+Togo50:~ alumno$ ls
+Desktop		Downloads	Library		Pictures	practica2
+Togo50:~ alumno$ cd practica2/
+Togo50:practica2 alumno$ mkdir Algebra
+Togo50:practica2 alumno$ ls
+Algebra		practica.txt
+Togo50:practica2 alumno$ mkdir Calculo
+Togo50:practica2 alumno$ mkdir IntroProgra
+Togo50:practica2 alumno$ mkdir Quimica
+Togo50:practica2 alumno$ mkdir Fisica
+Togo50:practica2 alumno$ ls
+Algebra		Calculo		Fisica		IntroProgra	Quimica		practica.txt
+Togo50:practica2 alumno$ cd Calculo/
+Togo50:Calculo alumno$ touch archivo.txt
+Togo50:Calculo alumno$ ls
+archivo.txt
+Togo50:Calculo alumno$ cd ..
+Togo50:practica2 alumno$ cd Algebra/
+Togo50:Algebra alumno$ touch archivo.txt
+Togo50:Algebra alumno$ ls
+archivo.txt
+Togo50:Algebra alumno$ cd ..
+Togo50:practica2 alumno$ cd Fisica/
+Togo50:Fisica alumno$ touch archivo.txt
+Togo50:Fisica alumno$ ls
+archivo.txt
+Togo50:Fisica alumno$ cd ..
+Togo50:practica2 alumno$ cd IntroProgra/
+Togo50:IntroProgra alumno$ touch archivo.txt
+Togo50:IntroProgra alumno$ ls
+archivo.txt
+Togo50:IntroProgra alumno$ cd ..
+Togo50:practica2 alumno$ cd Quimica/
+Togo50:Quimica alumno$ touch archivo.txt
+Togo50:Quimica alumno$ ls
+archivo.txt
+Togo50:Quimica alumno$ cd ..
+Togo50:practica2 alumno$ ls
+Algebra		Calculo		Fisica		IntroProgra	Quimica		practica.txt
+Togo50:practica2 alumno$ cd Algebra/
+Togo50:Algebra alumno$ clear
+
+//INGRESAR DATOS A TXT
+
+Togo50:Algebra alumno$ echo hola
+hola
+Togo50:Algebra alumno$ echo "Hola"
+Hola
+Togo50:Algebra alumno$ man echo
+Togo50:Algebra alumno$ ls
+archivo.txt
+Togo50:Algebra alumno$ cd archivo.txt
+-bash: cd: archivo.txt: Not a directory
+Togo50:Algebra alumno$ echo "David Gutierrez Marin  31051433-2" >> archivo.txt 
+Togo50:Algebra alumno$ cat archivo.txt
+David Gutierrez Marin  31051433-2
+Togo50:Algebra alumno$ cd ..
+Togo50:practica2 alumno$ ls
+Algebra		Calculo		Fisica		IntroProgra	Quimica		practica.txt
+Togo50:practica2 alumno$ cd Calculo/
+Togo50:Calculo alumno$ echo "David Gutierrez Marin  31051433-2" >> archivo.txt
+Togo50:Calculo alumno$ cat archivo.txt
+David Gutierrez Marin  31051433-2
+Togo50:Calculo alumno$ cd ..
+Togo50:practica2 alumno$ cd Fisica
+Togo50:Fisica alumno$ echo "David Gutierrez Marin  31051433-2" >> archivo.txt
+Togo50:Fisica alumno$ cat archivo.txt
+David Gutierrez Marin  31051433-2
+Togo50:Fisica alumno$ cd ..
+Togo50:practica2 alumno$ cd IntroProgra/
+Togo50:IntroProgra alumno$ echo "David Gutierrez Marin  31051433-2" >> archivo.txt
+Togo50:IntroProgra alumno$ cat archivo.txt
+David Gutierrez Marin  31051433-2
+Togo50:IntroProgra alumno$ cd ..
+Togo50:practica2 alumno$ cd Quimica/
+Togo50:Quimica alumno$ echo "David Gutierrez Marin  31051433-2" >> archivo.txt
+Togo50:Quimica alumno$ cat archivo.txt 
+David Gutierrez Marin  31051433-2
+Togo50:Quimica alumno$ cd ..
+Togo50:practica2 alumno$ clear
+
+
+
+//COMPROBACION
+
+
+
+Togo50:practica2 alumno$ ls
+Algebra		Calculo		Fisica		IntroProgra	Quimica		practica.txt
+Togo50:practica2 alumno$ cd Algebra/
+Togo50:Algebra alumno$ ls
+archivo.txt
+Togo50:Algebra alumno$ cat archivi.txt
+cat: archivi.txt: No such file or directory
+Togo50:Algebra alumno$ cat archivo.txt
+David Gutierrez Marin  31051433-2
+Togo50:Algebra alumno$ cd ..
+Togo50:practica2 alumno$ cd Calculo/
+Togo50:Calculo alumno$ ls
+archivo.txt
+Togo50:Calculo alumno$ cat archivo.txt
+David Gutierrez Marin  31051433-2
+Togo50:Calculo alumno$ cd..
+-bash: cd..: command not found
+Togo50:Calculo alumno$ cd ..
+Togo50:practica2 alumno$ cd Fisica/
+Togo50:Fisica alumno$ ls
+archivo.txt
+Togo50:Fisica alumno$ cat archivo.txt
+David Gutierrez Marin  31051433-2
+Togo50:Fisica alumno$ cd ..
+Togo50:practica2 alumno$ cd IntroProgra
+Togo50:IntroProgra alumno$ ls
+archivo.txt
+Togo50:IntroProgra alumno$ cat archivo.txt
+David Gutierrez Marin  31051433-2
+Togo50:IntroProgra alumno$ cd ..
+Togo50:practica2 alumno$ cd Quimica/
+Togo50:Quimica alumno$ ls
+archivo.txt
+Togo50:Quimica alumno$ cat archivo.txt
+David Gutierrez Marin  31051433-2
+Togo50:Quimica alumno$ cd ..
+Togo50:practica2 alumno$ 
+
+
+
